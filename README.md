@@ -23,7 +23,7 @@ The favorite number is: 2,300,000,000.00
 Pretty cool. But we can do better. Imagine that the favorite number was really the size of a file (like, a really big file), we could even format that! Imagine the following example:
 
 ```html
-<h1>The file size is: {{ favorite_number | numeral:0,0.00 b</h1>
+<h1>The file size is: {{ favorite_number | numeral:0,0.00 b }}</h1>
 ```
 
 Notice the `b` that was included in the format? The user would now see this on the page:
