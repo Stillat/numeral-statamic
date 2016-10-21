@@ -38,6 +38,8 @@ There's a lot more that can be done with formats; since Numeral for Statamic is 
 
 Copy the `Numeral` directory into your site's `addons` directory. Simple.
 
+Since this addon requires some additional dependencies, don't forget to issue the `php please addons:refresh` command!
+
 ## Configuration
 
 The formatter uses the `en-US` locale by default. There are many languages supported by Numeral (https://github.com/Stillat/numeral.php/tree/master/src/Languages). To change the locale that is being used, create a `numeral.yaml` file in your site's `settings/addons/` directory. Inside this `numeral.yaml` file, add the following:
