@@ -1,0 +1,6 @@
+{
+  "name": "JohnathonKoster/numeral",
+  "require": {
+    "stillat/numeral.php": "~2"
+  }
+}
